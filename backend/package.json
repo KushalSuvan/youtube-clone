@@ -1,0 +1,12 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["youtube-clone", "backend"],
+  "author": "EtherealWhisper",
+  "license": "ISC",
+  "description": "Backend for Youtube clone"
+}
