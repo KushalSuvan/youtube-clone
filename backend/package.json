@@ -1,12 +1,19 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": ["youtube-clone", "backend"],
-  "author": "EtherealWhisper",
-  "license": "ISC",
-  "description": "Backend for Youtube clone"
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    },
+    "keywords": [
+        "youtube-clone",
+        "backend"
+    ],
+    "author": "EtherealWhisper",
+    "license": "ISC",
+    "description": "Backend for Youtube clone",
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
 }
